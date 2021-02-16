@@ -2,115 +2,115 @@ name: html-utils-package
 parent: default
 
 matches:
-  - trigger: "::doctype"
+  - trigger: ":;doctype"
     replace: >-
       <!DOCTYPE html>
 
-  - trigger: "::charset"
+  - trigger: ":;charset"
     replace: >-
       <meta charset="$|$">
   
-  - trigger: "::utf-8"
+  - trigger: ":;utf-8"
     replace: >-
       <meta charset="UTF-8">
   
-  - trigger: "::viewport"
+  - trigger: ":;viewport"
     replace: >-
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  - trigger: "::meta-author"
+  - trigger: ":;meta-author"
     replace: >-
       <meta name="author" content="$|$">
 
-  - trigger: "::meta-desc"
+  - trigger: ":;meta-desc"
     replace: >-
       <meta name="description" content="$|$">
 
-  - trigger: "::meta-keywords"
+  - trigger: ":;meta-keywords"
     replace: >-
       <meta name="keywords" content="$|$">
 
-  - trigger: "::title"
+  - trigger: ":;title"
     replace: >-
       <title>$|$</title>
 
-  - trigger: "::div"
+  - trigger: ":;div"
     replace: >-
       <div>$|$</div>
 
-  - trigger: "::html"
+  - trigger: ":;html"
     replace: >-
       <html>$|$</html>
 
-  - trigger: "::head"
+  - trigger: ":;head"
     replace: >-
       <head>$|$</head>
 
-  - trigger: "::body"
+  - trigger: ":;body"
     replace: >-
       <body>$|$</body>
   
-  - trigger: "::a"
+  - trigger: ":;a"
     replace: >-
       <a href="">$|$</a>
 
-  - trigger: "::br"
+  - trigger: ":;br"
     replace: >-
       <br>
 
-  - trigger: "::button"
+  - trigger: ":;button"
     replace: >-
        <button type="button">$|$</button> 
   
-  - trigger: "::style"
+  - trigger: ":;style"
     replace: >-
       <style>$|$</style>
   
-  - trigger: "::css"
+  - trigger: ":;css"
     replace: >-
       <link rel="stylesheet" type="text/css" href="$|$">
   
-  - trigger: "::script"
+  - trigger: ":;script"
     replace: >-
       <script>$|$</script>
   
-  - trigger: "::js"
+  - trigger: ":;js"
     replace: >-
       <script type="text/javascript" src="$|$"></script>
 
-  - trigger: "::form"
+  - trigger: ":;form"
     replace: >-
       <form action="" method="">$|$</form>
   
-  - trigger: "::label"
+  - trigger: ":;label"
     replace: >-
       <label for="">$|$</label>
   
-  - trigger: "::submit"
+  - trigger: ":;submit"
     replace: >-
       <input type="submit" value="$|$">
 
-  - trigger: "::input-text"
+  - trigger: ":;input-text"
     replace: >-
       <input type="text" name="" id="">
 
-  - trigger: "::input-password"
+  - trigger: ":;input-password"
     replace: >-
       <input type="password" name="" id="">
 
-  - trigger: "::input-radio"
+  - trigger: ":;input-radio"
     replace: >-
       <input type="radio" name="" id="" value="$|$">
 
-  - trigger: "::input-checkbox"
+  - trigger: ":;input-checkbox"
     replace: >-
       <input type="checkbox" name="" id="" value="$|$">
 
-  - trigger: "::input-file"
+  - trigger: ":;input-file"
     replace: >-
       <input type="file" name="" id="">
 
-  - trigger: "::docskel"
+  - trigger: ":;docskel"
     replace: |
       <!DOCTYPE html>
       <html>
